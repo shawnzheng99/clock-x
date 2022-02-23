@@ -22,10 +22,15 @@ export const NumberLine = ({maxNumber}: NumberLineProps) => {
 const containerStyle: CSS.Properties = {
     display: 'flex',
     flexDirection: 'column',
+    backgroundColor: '#5c5d5e',
+    borderRadius: '5px',
+    
 }
 
 const numberBoxStyle: CSS.Properties = {
-    border: '1px solid red',
     borderRadius: '10px',
     padding: '20px',
+    color: '#d9dcde', // selected color #fff
+    textShadow: '2px 1px #000',
+    fontSize: '1rem',
 };
